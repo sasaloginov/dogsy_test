@@ -4,8 +4,6 @@ namespace app;
 
 interface UserTextParserInterface
 {
-    public function setSeparator($separator);
-
     /**
      * Для каждого пользователя считает среднее количество строк в его текстовых файлах
      *
