@@ -1,0 +1,17 @@
+{
+  "name": "sasaloginov/dogsy_test",
+  "description": "Test task for dogsy.ru",
+  "type": "project",
+  "support": {
+    "issues": "https://github.com/sasaloginov/dogsy_test/issues?state=open"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable" : true,
+  "require": {
+    "php": ">=7.1.0",
+    "splitbrain/php-cli": "^1.1"
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
