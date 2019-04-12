@@ -78,6 +78,7 @@ class UserTextParser extends FileParser implements UserTextParserInterface
                     }
                     $result .= PHP_EOL;
                 } else {
+                    $result = 'Используемый разделитель не совпадает с разделителем в файле пользователей или файл пользователей или не соответствует необходимым требованиям' . PHP_EOL;
                     break;
                 }
             }
@@ -89,6 +90,9 @@ class UserTextParser extends FileParser implements UserTextParserInterface
         return $result;
     }
 
+    /**
+     * @return string
+     */
     public function replaceDatesAction()
     {
 
